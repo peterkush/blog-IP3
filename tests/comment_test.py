@@ -4,7 +4,7 @@ from app.models import Comment
 class CommentModelTest(unittest.TestCase):
 
     def setUp(self):
-        self.new_comment = Comment(body = 'Wow, thats great')
+        self.new_comment = Comment(body = 'wow, thats great')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_comment, Comment))
